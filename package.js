@@ -12,7 +12,7 @@
   "dependencies": {
     "axios": "^0.19.0",
     "core-js": "^2.6.5",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.15",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -28,7 +28,7 @@
     "babel-jest": "^23.6.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.10"
   },
@@ -41,15 +41,7 @@
       "plugin:vue/essential",
       "@vue/airbnb"
     ],
-    "rules": {
-      "vue/script-indent": [
-        "error",
-        4,
-        {
-          "baseIndent": 1
-        }
-      ]
-    },
+    "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
     },

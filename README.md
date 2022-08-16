@@ -1,48 +1,60 @@
 # vue-scss
+An application runs VueJS with a sass importer
 
-This template should help get you started developing with Vue 3 in Vite.
+# Prerequisites
+- nvm
+- node
+- npm
+- sass
+- vue
+- vue-cli
 
-## Recommended IDE Setup
+Use Node Version Manager to switch node versions. This app requires node 14.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+You will need a global installion of vue-cli to run the project.
+See [Vue installation](https://cli.vuejs.org/guide/installation.html).
 
-## Customize configuration
+```
+npm install -g @vue/cli
+```
+or
+```
+yarn global add @vue/cli
+```
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+## To install the project from the root folder run
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+## Once all dependencies are installed the project can be initialised executing:
+```
+npm run serve
 ```
 
-### Compile and Minify for Production
+The application should run at `http://localhost:8080/`, if the port is not available vue will look for the next available port
 
-```sh
+### To run a minified production build execute:
+```
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### To run all tests execute:
+```
+npm run test
+```
 
-```sh
+### To run end-to-end tests
+TODO this requires platform agnostic implementation of selenium
+```
+npm run test:e2e
+```
+
+### To run unit tests
+the package.json contains a watch parameter to check when test files are changed.
+```
 npm run test:unit
 ```
 
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run build
-npm run test:e2e # or `npm run test:e2e:ci` for headless testing
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+### Customize configuration
+See [Configuration reference](https://cli.vuejs.org/config/).
