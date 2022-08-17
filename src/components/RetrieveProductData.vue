@@ -1,5 +1,5 @@
 <template>
-    <div class="RetrieveProductData wrapper">
+    <div class="retrieveProductData wrapper">
         <p class="alignC">
             Tablets
         </p>
@@ -109,6 +109,7 @@
         data() {
             return {
                 products: null,
+                navData: null,
                 loading: true,
                 errored: false,
                 remoteFail: false,
@@ -158,7 +159,7 @@
         }
     }
 
-    .RetrieveProductData {
+    .retrieveProductData {
         .products-wrapper li {
             margin-bottom: 3rem;
         }
@@ -178,7 +179,7 @@
     }
 
     @include tablet($tablet-size) {
-        .RetrieveProductData {
+        .retrieveProductData {
             img {
                 width: 100%;
             }

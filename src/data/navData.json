@@ -1,0 +1,22 @@
+[
+    {
+        "id": "01",
+        "name": "Desktops",
+        "className": ""
+    },
+    {
+        "id": "02",
+        "name": "Tablets",
+        "className": "active"
+    },
+    {
+        "id": "03",
+        "name": "Mobile phones",
+        "className": ""
+    },
+    {
+        "id": "04",
+        "name": "Accessories",
+        "className": ""
+    }
+]

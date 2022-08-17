@@ -8,6 +8,7 @@ module.exports = {
     // override/add rules settings here, such as:
     // 'vue/no-unused-vars': 'error'
     "vue/script-indent": ["error", 4, { "baseIndent": 1 }],
-    "vue/html-indent": ["error", 4, { "baseIndent": 1 }]
+    "vue/html-indent": ["error", 4, { "baseIndent": 1 }],
+    "no-console": "off"
   }
 }

@@ -16,12 +16,13 @@
 </script>
 
 <style lang="scss">
-@import '../src/app/scss/main.scss';
+    @import '../src/app/scss/main.scss';
 
-#app {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: $darkBlue;
-    margin-top: 60px;
-}
+    #app {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: $darkBlue;
+        margin-top: 60px;
+    }
 </style>
+
